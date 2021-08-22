@@ -1,0 +1,374 @@
+header{
+    margin-left: 50%;
+    display:inline;
+    word-spacing: 25px;
+}
+a:focus{transition: ease-in;}
+.con{
+    text-decoration: none;
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.con:hover{color: black;
+font-size: large;}
+.con:focus{text-decoration: underline;color: rgb(229, 245, 140);
+    font-size: large;}
+.logo{
+margin-left: 20px;
+color: white;
+font-size: 28px;
+text-decoration: none;
+margin-top: 3000px;
+
+}
+.s1{
+    color: white;
+    font-family: cursive;
+    margin-top: 50px;
+}
+.bgimg{
+background-image: url('image.jpg');
+     width: 100%;
+     height: 400px;
+     background-repeat: no-repeat;
+}
+.btn1{
+    height: 40px;
+    border-radius: 6px;
+    border: solid black;
+   background-color: rgb(216, 200, 171);
+   font-size: 14px;
+}
+.btn1:hover{border-radius: 15px;
+background-color: rgb(117, 100, 67);}
+
+.imda{
+    display:inline-block;
+    block-size: 40px;
+}
+.imgstyle{height:70px;width: 70px; border-radius: 100%;}
+.imgstyle1{height: 100px;width: 100px;border-radius: 100%;}
+
+.line{
+    display: inline-block;
+    block-size: 60px;
+}
+.lrnmre{
+    height: 40px;
+    color: white;
+    background-color: rgb(70, 94, 201);
+    font-size: 15px;
+    border: solid black;
+    border-radius: 15px;
+}
+.lrnmre:hover{ 
+    height: 41px;
+    color: black;
+    background-color: blanchedalmond;
+    font-size: 15px;
+    border: solid black;
+    border-radius: 15px;
+}
+.img2{
+    height:400px;
+    width: 200px;
+}
+.event{
+    display: inline-block;
+    margin-right: -24px;
+}
+.capt{
+    font-size: larger;
+}
+.btn2{
+    height: 40px;
+    background-color: rgb(70, 94, 201);
+    color: white;
+    border: solid black;
+    border-radius: 10px;
+}
+.btn2:hover{
+    height: 41px;
+    color: black;
+    background-color:blanchedalmond;
+    border: solid black;
+    border-radius: 15px;   
+}
+.event1:hover{
+    background-color: burlywood;
+}
+.prtb2{    border-left: dashed black;padding-left:50px ;
+}
+.prtb{
+    font-weight: lighter;
+    color: gray;
+}
+.prtb1{
+    display: inline-block;
+    margin-right:60px ;
+}
+
+.container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.vdpr{
+    display: inline;
+    box-sizing: border-box;
+}
+.zpteam{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    display: inline;
+    cursor: pointer;
+}
+
+.zpteam1{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    cursor: pointer;
+}
+.alteam{
+    display: inline-block;
+margin-left: 40px;}
+.alteam1{
+    display: inline-block;
+    margin-left: 40px;}
+.ali{
+    border-radius: 100%;
+    display: none;
+}
+.alteam:hover .zpteam{
+    opacity: 0.5;
+}
+.alteam1:hover .zpteam1{
+    opacity: 0.5;
+}
+
+.alteam:hover .overlay {
+    border-radius: 100%;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    background-color: rgb(5, 173, 252);
+    align-self: center;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+
+}
+.alteam1:hover .overlay1{
+    border-radius: 100%;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    background-color: rgb(5, 173, 252);
+    align-self: center;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.alteam:hover .ali{
+    display: inline;
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    margin-top: 80px;
+}
+.alteam1:hover .ali{
+    display: inline;
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    margin-top: 80px;
+}
+/*.cnt{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    background-color: cornsilk;
+}*/
+ .newsltr{
+     background-image:url("bridge1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+    }
+    input[placeholder]{
+        font-size:18px;
+        background-color: whitesmoke;
+        border: rgb(100, 69, 69) solid 1px;
+    }
+    input:focus{
+        outline: none;
+        border: black solid ;
+    }
+    .btn3{
+        height: 40px;
+        width: 20%;
+        background-color: rgb(70, 94, 201);
+        color: rgb(0, 0, 0);
+        border: solid black;
+        border-radius: 20px;
+    }
+    .btn3:hover{
+        height: 41px;
+        width: 20%;
+        color: black;
+        background-color:blanchedalmond;
+        border: solid black;
+        border-radius: 20px;   
+    }
+    .blimg{
+        height: 150px;
+        width: 250px;
+        margin-right: 10px;
+    }
+    .blimg1{
+        display: inline-block;
+
+    }
+    .cnfrm{
+        width:50%;
+        height: 30px;
+    }
+    .mapfrm{
+        display: inline-block;
+    }
+    .ftr{
+        display: inline-block;
+        margin-right: 60px;
+    }
+    .ftrimg
+    {
+        width: 25px;
+        height: 25px;
+    }
+    .ftrdis{
+        display: inline-block;
+    }
+    .btn5{
+        height: 40px;
+        width: 50%;
+        background-color: rgb(70, 94, 201);
+        color: white;
+        border: solid black;
+        border-radius: 10px;
+    }
+    .btn5:hover{
+        height: 41px;
+        width: 50%;
+        color: black;
+        background-color:blanchedalmond;
+        border: solid black;
+        border-radius: 15px;   
+    }
+    * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+}
+
+/* forward & Back buttons */
+.Back, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+.Back{left: 0;}
+/* Place the "forward button" to the right */
+.forward {
+    margin: 0 auto;
+    right: 0;;
+    border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover, .forward:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Worknumbering (1/3 etc) */
+.MessageInfo {
+  color: #f2f2f3;
+  font-size: 14px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 0;
+}
+
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable, .dots:hover {
+  background-color: #717161;
+}
+.header1{display: none;}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@media screen and  (max-width:900px)
+{
+    header{
+        display:none;
+    }
+.mapfrm{
+    display: block;
+    min-width: 100%;
+}
+.blimg1{display: block;block-size: 350px;}
+.prtb1{
+    display: block;
+}
+.prtb2{border-left: none;}
+}
